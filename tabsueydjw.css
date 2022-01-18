@@ -1,0 +1,33 @@
+table {
+    text-align: center;
+    font-size: 20px;
+    border: 0px;
+    color: #cd5c5c;
+    background-color: #FFE8E8;
+    font-family: 'Noto Sans TC', 'DFKai-SB', Arial, sans-serif;
+}
+
+thead, th {
+    background-color: #cd5c5c;
+    font-size: 24px;
+    color: #fff8dc;
+}
+
+.tD2 {
+    line-height: 30px;
+    font-size: 18px;
+    color: #b6ff00;
+    background-color: #000000;
+    font-family: 'Noto Sans TC', 'DFKai-SB', Arial, sans-serif;
+    text-align: right;
+}
+
+.tD3 {
+    max-width: 350px;
+    line-height: 30px;
+    font-size: 18px;
+    border: 0px;
+    background-color: #ffd800;
+    font-family: 'Apple Chancery', 'Comic Sans MS', Arial, sans-serif;
+    text-align: left;
+}
