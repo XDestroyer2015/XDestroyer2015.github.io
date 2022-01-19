@@ -4,23 +4,24 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>來抽個好籤吧！</title>
+    <link rel="icon" href="picdjfsiodj/cat.png" />
     <link href="tabsueydjw.css" rel="stylesheet" type="text/css" />
     <script src="fuctyugdiuadfh.js"></script>
 </head>
-<body>
+<body class="view">
+    <div class="backLayer" id="drawlots">
+        <img src="picdjfsiodj/drawLots.gif" />
+    </div>
     <div>
         <script language="javascript">
+            setTimeout(over("drawlots"), 5000);
+
             var index = getRandomSentence(4);
-            var blessTitle = ['末吉', '小吉', '中吉', '大吉'];
-            var blessings = ['<br/>或許有不如意，<br/><br/>但終能順利解決。<br/><br/>平平安安就是福。',
-                '<br/>平淡的生活中，<br/><br/>總會有些小確幸。',
-                '<br/>平平安安，<br/><br/>順心如意。',
-                '<br/>將有好事降臨！<br/><br/>快樂的度過每一天吧！'];
+            document.write("<table><tr><td><img src='picdjfsiodj/" + index + ".png'/></td></tr>");
 
-            document.write("<table><thead><tr><th><img src='picdjfsiodj/" + index + ".png'/></th></tr>");
-
+            var blessluck = ['a_Last', 'b_Small', 'c_Medium', 'd_Large'];
             index = getRandomSentence(4);
-            document.write("<tr><th><br/>" + blessTitle[index] + "<br/><br/></th></tr></thead><tbody></tr><td>" + blessings[index] + "<br/><br/></td></tr></tbody></table>");
+            document.write("<tr><td><img src='picdjfsiodj/" + blessluck[index + 1] + ".jpg'/></td></tr></table>");
         </script>
         <br />
         <br />
@@ -29,13 +30,18 @@
         <br />
         <table>
             <tr>
+                <td colspan="2">
+                    <img src='picdjfsiodj/SlothSay.png' />
+                </td>
+            </tr>
+            <tr>
                 <td class="tD2">
-                    <a href="https://line.me/S/shop/theme/detail?id=5ef4366b-09c5-452c-8de3-e7d113066379&lang=zh-Hant&ref=gnsh_themeDetail">
-                        <img src='picdjfsiodj/theme.png'/>
+                    <a href="https://line.me/S/shop/theme/detail?id=5ef4366b-09c5-452c-8de3-e7d113066379&lang=zh-Hant&ref=gnsh_themeDetail" target="_blank">
+                        <img src='picdjfsiodj/theme.png' />
                     </a>
                 </td>
                 <td class="tD3">
-                    <a href="https://store.line.me/stickershop/product/18113406">
+                    <a href="https://store.line.me/stickershop/product/18113406" target="_blank">
                         <img src='picdjfsiodj/sticker.png' />
                     </a>
                 </td>
@@ -45,16 +51,16 @@
                     &nbsp;我們的官網&nbsp;
                 </td>
                 <td class="tD3">
-                    &nbsp;<a href="https://responselessaircra.wixsite.com/x-destroyer">x-destroyer</a>
+                    &nbsp;<a href="https://responselessaircra.wixsite.com/x-destroyer" target="_blank">x-destroyer</a>
                 </td>
             </tr>
             <tr>
                 <td class="tD2">
-                    &nbsp;慣例的兌現自肥&nbsp;
+                    &nbsp;兌現繼續自肥&nbsp;
                 </td>
                 <td class="tD3">
-                    &nbsp;<a href="https://www.instagram.com/aryawritearia/">Instagram</a>&nbsp;&nbsp;&nbsp;
-                    &nbsp;<a href="https://www.facebook.com/hawkini1990/">Facebook</a>
+                    &nbsp;<a href="https://www.instagram.com/aryawritearia/" target="_blank">Instagram</a>&nbsp;&nbsp;&nbsp;
+                    &nbsp;<a href="https://www.facebook.com/hawkini1990/" target="_blank">Facebook</a>
                 </td>
             </tr>
         </table>
