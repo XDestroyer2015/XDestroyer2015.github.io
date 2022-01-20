@@ -4,9 +4,9 @@ function getRandomSentence(x) {
     return index;
 }
 
-function ShowGIF() {
-    show('drawlots');
-    setTimeout(function () { unshow('drawlots');},3000);
+function ShowGIF(idname,time) {
+    show(idname);
+    setTimeout(function () { unshow(idname); }, time);
 }
 
 function show(idname) {
@@ -16,3 +16,4 @@ function show(idname) {
 function unshow(idname) {
     document.getElementById(idname).style.display = "none";
 }
+
