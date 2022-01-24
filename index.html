@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>來抽個好籤吧！</title>
-    <link rel="icon" href="picdjfsiodj/cat.png" />
+    <link rel="icon" href="picdjfsiodj/tag.png" />
     <link href="tabsueydjw.css" rel="stylesheet" type="text/css" />
     <script src="fuctyugdiuadfh.js"></script>
 </head>
@@ -14,15 +14,22 @@
         <img src="picdjfsiodj/drawLots.gif"/>
     </div>
     <div class="panel">
+	<table>
+		<tr>
+			<td>
+				<img src='picdjfsiodj/TiTle.png'/>
+			</td>
+        </tr>
+	</table>
         <script language="javascript">
             ShowGIF('drawlots',3000);
 
             var index = getRandomSentence(6);
-            document.write("<table><tr><td><img src='picdjfsiodj/" + index + ".png'/></td></tr>");
+            document.write("<table><tr><td><img src='picdjfsiodj/" + index + ".png'/>");
 
             var blessluck = ['a_Last', 'b_Small', 'c_Medium', 'd_Large'];
             index = getRandomSentence(4);
-            document.write("<tr><td><img src='picdjfsiodj/" + blessluck[index] + ".png'/></td></tr></table>");
+            document.write("<br /><img src='picdjfsiodj/" + blessluck[index] + ".png'/></td></tr></table>");
         </script>
         <br />
         <br />
