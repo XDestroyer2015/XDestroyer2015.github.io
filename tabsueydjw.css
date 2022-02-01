@@ -31,7 +31,7 @@ table {
 
 .panel {
     background-color: #d4b5b0;
-    max-width: 80%;
+    max-width: 650px;
 	height: 2100px;
 }
 .backLayer {
